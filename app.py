@@ -1,5 +1,7 @@
 from tkinter import *
-import database
+from database import Database
+
+database = Database("bookstore.db")
 
 
 # Commands
